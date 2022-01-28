@@ -17,4 +17,11 @@
 #### 3º Para iniciar a aplicação é preciso navegar no terminal até a basta de onde foi salvo o clone e usar o code: "npm start" e pronto!
 ## Demo
 
-![Exercício Dark Mode e Light Mode](https://github.com/luizpedros/Consultar-CEP---ReactJs/blob/main/gifs-demo/fluxo_Trim.gif?raw=true)
+### Exemplo do fluxo normal
+![Fluxo normal](https://github.com/luizpedros/Consultar-CEP---ReactJs/blob/main/gifs-demo/fluxo_Trim.gif?raw=true)
+
+### Exemplo de tratamento caso o campo esteja em branco para a consulta
+![Fluxo campo em branco](https://github.com/luizpedros/Consultar-CEP---ReactJs/blob/main/gifs-demo/erro-branco_Trim.gif?raw=true)
+
+### Exemplo de tratamento para caracteres não numericos digitados pelo usuário.
+![Fluxo caracteres não numericos](https://github.com/luizpedros/Consultar-CEP---ReactJs/blob/main/gifs-demo/erro-letra-m_Trim.gif?raw=true)
