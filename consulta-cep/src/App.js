@@ -15,6 +15,10 @@ function App() {
   //chamando hook state
   const [input, setInput] = useState('');
 
+  //para amarzenar o retorno da API
+  //vai receber um objeto
+  const [recebeCep, setRecebeCep] = useState({});
+
   //button do activation for request to API
   async function hundleSearch(){
     
@@ -24,10 +28,12 @@ function App() {
       return;
     }
   
-    //o que quero fazer
+    //Request for API
     try{
       const response = await api.get(`${input}/json`);
-      console.log(response.data);
+      //mostra o retorno do cep consultado
+      setRecebeCep(response.data)
+      setInput("");//para limpar o campo
 
     }catch{
       alert("Erro inesperado");
@@ -46,16 +52,19 @@ function App() {
         <button className="btnsearch" onClick={hundleSearch} ><FiSearch size={25} color="#FFF"/></button>
 
       </div>
-      <section className='main'>
-        <h2>CEP:  72420290</h2>
+       
+      {Object.keys(recebeCep).length > 0 && (
+        <section className='main'>
+        <h2>CEP: {recebeCep.cep}</h2>
         
-        <span>Rua</span>
-        <span>Complemento</span>
-        <span>Bairro</span>
-        <span>Cidade - Estado</span>
+        <span>{recebeCep.logradouro}</span>
+        <span>Complemento: {recebeCep.complemento}</span>
+        <span>Bairro: {recebeCep.bairro}</span>
+        <span>{recebeCep.localidade} - {recebeCep.uf}</span>
 
       </section>
-      
+      )}
+
     </div>
   );
 }
