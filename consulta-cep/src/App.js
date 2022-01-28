@@ -27,10 +27,11 @@ function App() {
     //o que quero fazer
     try{
       const response = await api.get(`${input}/json`);
-      console.log(response);
-      
+      console.log(response.data);
+
     }catch{
       alert("Erro inesperado");
+      setInput("");
     }
   }
 
