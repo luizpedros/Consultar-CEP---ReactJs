@@ -5,7 +5,7 @@
 #### No desenvolvimento usei uma biblioteca que executa requisições em HTTP, para trazer dados de uma API. E assim tratei a chegada de dados e apresentei os dados requisitados.
 
 ### Tecnologias:
-#### ReactJs
+#### - ReactJs
 #### - Biblioteca: Axies
 #### - API: viacep
 
