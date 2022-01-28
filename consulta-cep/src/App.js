@@ -1,18 +1,31 @@
-//inportar icone de pesquisa da lib instalada
+//impot do hook para receber a consulta
+import {useState} from "react";
+
+//import icone de pesquisa da lib instalada
 import {FiSearch} from 'react-icons/fi'
 
-//inporte do css style
-import './style.css'; 
+//import do css style
+import './style.css';
+
 
 function App() {
+  //chamando hook state
+  const [input, setInput] = useState("");
+
+  //function active button
+  function hundleSearch(){
+    alert("foi digitado " + input);
+  }
+
   return (
     <div className="container">
       <h1 className="title">Consultar CEP</h1>
       
       <div className="containerInput">
-        <input type="text" placeholder="Digite um CEP"/>
+        <input type="text" placeholder="Digite um CEP..." 
+        value={input} onChange={(event) => setInput(event.target.value)}/>
 
-        <button className="btnsearch" ><FiSearch size={25} color="#FFF"/></button>
+        <button className="btnsearch" onClick={hundleSearch} ><FiSearch size={25} color="#FFF"/></button>
 
       </div>
       <section className='main'>
