@@ -6,7 +6,7 @@
 
 ### Tecnologias:
 #### - ReactJs
-#### - Biblioteca: Axies
+#### - Biblioteca: Axios
 #### - API: viacep
 
 
