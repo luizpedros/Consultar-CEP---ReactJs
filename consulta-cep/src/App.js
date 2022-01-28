@@ -21,7 +21,7 @@ function App() {
         <span>Rua</span>
         <span>Complemento</span>
         <span>Bairro</span>
-        <span>cidade</span>
+        <span>Cidade - Estado</span>
 
       </section>
       
