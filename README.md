@@ -12,9 +12,9 @@
 
 ### Para rodar em seu desktop é preciso ter instalado:
 
-#### Ter Node.Js instalado
-#### Fazer o clone da aplicação - "git clone link-do-repositorio"
-#### Para iniciar a aplicação é preciso navegar no terminal até a basta de onde foi salvo o clone e usar o code: "npm start" e pronto!
+#### 1º Ter Node.Js instalado
+#### 2º Fazer o clone da aplicação - "git clone link-do-repositorio"
+#### 3º Para iniciar a aplicação é preciso navegar no terminal até a basta de onde foi salvo o clone e usar o code: "npm start" e pronto!
 ## Demo
 
 ![Exercício Dark Mode e Light Mode](https://github.com/luizpedros/Consultar-CEP---ReactJs/blob/main/gifs-demo/fluxo_Trim.gif?raw=true)
