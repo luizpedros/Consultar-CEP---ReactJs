@@ -7,18 +7,30 @@ import {FiSearch} from 'react-icons/fi'
 //import do css style
 import './style.css';
 
+//import da API
+import api from './services/api';
+
 
 function App() {
   //chamando hook state
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState('');
 
   //button do activation for request to API
-  function hundleSearch(){
+  async function hundleSearch(){
     
     //verification input filled
-    if (input === "") {
-      alert("Digite algum CEP para ser consultador");
+    if (input === '') {
+      alert("Digite algum CEP para ser consultado");
       return;
+    }
+  
+    //o que quero fazer
+    try{
+      const response = await api.get(`${input}/json`);
+      console.log(response);
+      
+    }catch{
+      alert("Erro inesperado");
     }
   }
 
