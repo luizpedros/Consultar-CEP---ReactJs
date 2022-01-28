@@ -3,4 +3,4 @@
 
 ## Demo
 
-![Exercício Dark Mode e Light Mode](./gifs-demo/fluxo_Trim)
+![Exercício Dark Mode e Light Mode](https://github.com/luizpedros/Consultar-CEP---ReactJs/blob/main/gifs-demo/fluxo_Trim.gif?raw=true)
