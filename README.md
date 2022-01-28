@@ -1,7 +1,7 @@
 # Consultar-CEP---ReactJs
 ### Aplicação de consulta do CEP desenvolvida com ReactJS + API.
 
-#### Essa aplicação foi desenvolvida com ReactJS, para realizar consultas de endereço via CEP. 
+#### Aplicação desenvolvida com ReactJS, para realizar consultas de endereço via CEP. 
 #### No desenvolvimento usei uma biblioteca que executa requisições em HTTP, para trazer dados de uma API. E assim tratei a chegada de dados e apresentei os dados requisitados.
 
 ### Tecnologias:
