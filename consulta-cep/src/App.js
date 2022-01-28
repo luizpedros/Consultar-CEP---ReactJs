@@ -12,9 +12,14 @@ function App() {
   //chamando hook state
   const [input, setInput] = useState("");
 
-  //function active button
+  //button do activation for request to API
   function hundleSearch(){
-    alert("foi digitado " + input);
+    
+    //verification input filled
+    if (input === "") {
+      alert("Digite algum CEP para ser consultador");
+      return;
+    }
   }
 
   return (
