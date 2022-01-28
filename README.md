@@ -10,12 +10,10 @@
 #### - API: viacep
 
 
-### Para rodar em seu desktop é preciso ter instalado:
-
-#### 1º Ter Node.Js instalado
-#### 2º Fazer o clone da aplicação - "git clone link-do-repositorio"
-#### 3º Para iniciar a aplicação é preciso navegar no terminal até a pasta de onde foi salvo o clone e usar o code: "npm start" e pronto!
-## Demo
+## Como rodar o projeto
+1. Clone o repositório na máquina
+2. Instale as dependencias com npm install ou yarn install
+3. execute o projeto com npm start ou yarn start
 
 ### Exemplo do fluxo normal
 ![Fluxo normal](https://github.com/luizpedros/Consultar-CEP---ReactJs/blob/main/gifs-demo/fluxo_Trim.gif?raw=true)
