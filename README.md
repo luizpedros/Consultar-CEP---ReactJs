@@ -3,4 +3,4 @@
 
 ## Demo
 
-![Exercício Dark Mode e Light Mode](./dark-mode-exercicio.gif)
+![Exercício Dark Mode e Light Mode](./gifs-demo/fluxo_Trim)
